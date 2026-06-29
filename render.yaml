@@ -1,0 +1,23 @@
+# Render Blueprint — deploys ScriptFlow as a free always-on web service.
+# Data is saved in your Firebase Realtime Database (set the two secret values
+# in the Render dashboard after the first deploy).
+services:
+  - type: web
+    name: scriptflow
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python server.py --no-open"
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: DATA_BACKEND
+        value: firebase
+      - key: FIREBASE_PATH
+        value: scriptflow
+      - key: FIREBASE_DB_URL
+        sync: false          # paste your Realtime Database URL in the dashboard
+      - key: FIREBASE_SECRET
+        sync: false          # paste your Database secret in the dashboard

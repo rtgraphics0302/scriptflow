@@ -1,0 +1,235 @@
+// Auto-generated from Facebook_Reel_Scripts.docx — your 21 scripts.
+// This is the starter library loaded the first time the app runs on a fresh workspace.
+export const SEED_SCRIPTS = [
+  {
+    "id": "seed-01",
+    "num": 1,
+    "title": "5 Facts That Will Blow Your Mind",
+    "body": "Stop scrolling. By the end of this, you'll question everything you think you know. Ready?\n\nNumber one. Bananas are radioactive. They're packed with potassium, and a tiny fraction of it is naturally radioactive. You eat radiation every single day… and you're completely fine.\n\nNumber two. There are more trees on Earth than stars in our entire galaxy. Three trillion trees. Look up at the night sky — there's more life under your feet than lights in the Milky Way.\n\nNumber three. Honey never spoils. Archaeologists found 3,000-year-old honey in Egyptian tombs… and it was still edible. The oldest food on Earth is sitting in your kitchen.\n\nNumber four. An octopus has three hearts and blue blood. And when it swims, one of those hearts actually stops beating. That's why it prefers to crawl — swimming exhausts it.\n\nAnd number five — the one that breaks people. Right now, you are slightly taller than you'll be tonight. Gravity compresses your spine all day. You literally shrink before bed and grow back while you sleep.\n\nWhich fact shocked you the most? Comment the number. Follow — tomorrow's facts are even crazier.",
+    "chars": 1113,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-02",
+    "num": 2,
+    "title": "Things You Won't Believe Are True",
+    "body": "These sound like lies. They're not. And the last one will rewire your sense of time forever.\n\nCleopatra lived closer to the building of the first iPhone than to the building of the Great Pyramid. The pyramids were already ancient ruins to her. Let that sink in.\n\nSharks are older than trees. Sharks have been swimming for over 400 million years — before the first tree ever grew on land. They watched the forests appear.\n\nWombats poop in cubes. Perfect little squares. Scientists spent years figuring out how an animal makes cube-shaped droppings… and the answer is hidden inside its intestines.\n\nThere are more possible games of chess than there are atoms in the observable universe. A simple board game contains more variety than the entire cosmos.\n\nAnd here's the one that hurts. Oxford University was already teaching students when the Aztec Empire was founded. People were getting degrees before the Aztecs built their first temple.\n\nWhich one did you refuse to believe? Comment it. Follow for the truths that sound impossible.",
+    "chars": 1026,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-03",
+    "num": 3,
+    "title": "Did You Know This About Your Body?",
+    "body": "Your body is doing something terrifying right now — and you can't feel it. Watch.\n\nThe acid in your stomach is strong enough to dissolve metal. So why doesn't it dissolve you? Because your stomach builds a brand-new lining every few days. If it didn't, it would digest itself.\n\nRight now, your body is making around 25 million new cells… every second. In the time it took to read that sentence, you've replaced more cells than there are people on Earth.\n\nYour small intestine is over 20 feet long, coiled up inside you. Stretched out, it's taller than a two-story house — folded neatly into your belly.\n\nAnd here's the strange one. You have a completely separate set of nerves in your gut — so many that scientists call it your 'second brain.' That gut feeling you get? It might be more literal than you think.\n\nEvery breath, every second, your body is rebuilding itself without asking you. You are not the same person you were a year ago — not a single cell.\n\nComment 🤯 if your body just freaked you out. Follow — there's more your body is hiding.",
+    "chars": 1043,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-04",
+    "num": 4,
+    "title": "The Most Amazing Fact You'll Hear Today",
+    "body": "Just one fact today. But it's so big, your brain will struggle to hold it.\n\nSomewhere out in space, there are dead stars called neutron stars. When a giant star collapses, it crushes itself into a ball just a few miles wide — but heavier than our entire Sun.\n\nHere's the part that breaks the mind. A single teaspoon of that star would weigh about six billion tons. One spoonful. More than every car, building, and mountain you've ever seen — combined.\n\nThese stars spin too. Some rotate hundreds of times every second, faster than a kitchen blender, firing beams of energy across the universe like a lighthouse.\n\nAnd the light reaching your eyes from some of them left before humans even existed. You're not looking at the star. You're looking at its past — a ghost of something that may already be gone.\n\nThe universe is hiding spoonfuls of matter that weigh more than planets. And we're floating in the middle of it.\n\nComment a 🌌 if this just made you feel tiny. Follow for one mind-bending fact every day.",
+    "chars": 1003,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-05",
+    "num": 5,
+    "title": "History They Never Taught You in School",
+    "body": "Your history class lied by leaving things out. Here's what they skipped.\n\nThe last execution by guillotine in France happened in 1977. The same year Star Wars hit cinemas. While people watched lightsabers, a medieval blade was still in use.\n\nOxford University is older than the Aztec Empire. Students were already studying there centuries before the Aztecs founded their capital. Old Europe and 'new' empires overlapped in ways nobody teaches.\n\nThe people who built the Egyptian pyramids weren't slaves. They were paid workers — given bread, beer, and medical care. Their broken bones were even set and healed by doctors.\n\nAnd here's the eerie one. For most of human history, people slept in two shifts. They'd wake in the middle of the night, stay up for an hour, then sleep again. Your '8 hours straight' is a modern invention.\n\nHistory isn't a straight line. It's full of overlaps and secrets your textbook quietly erased.\n\nWhich fact should've been in your school books? Comment it. Follow for the history they hid.",
+    "chars": 1013,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-06",
+    "num": 6,
+    "title": "Why This Happens (Explained Simply)",
+    "body": "Ever wonder why you cry when you chop onions? The real reason is sneakier than you think.\n\nWhen you slice an onion, you break its cells. Those cells release a hidden chemical into the air — a tiny invisible cloud that floats straight up toward your face.\n\nThe moment it touches the thin layer of moisture on your eyes, it transforms into a mild acid. Your eyes panic. They flood with tears to wash the attacker away.\n\nHere's the twist — the onion is doing this on purpose. In the wild, that stinging chemical is a defense weapon, designed to drive away animals trying to eat it. You're just caught in the crossfire.\n\nWant to beat it? Chill the onion first. Cold slows the chemical down so less escapes into the air. Or cut near running water, which traps the cloud before it reaches you.\n\nA vegetable made you cry using chemical warfare — and now you finally know how.\n\nComment what everyday mystery I should explain next. Follow for the 'why' behind everything.",
+    "chars": 956,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-07",
+    "num": 7,
+    "title": "Secrets Hidden in Everyday Things",
+    "body": "There are secrets hiding in objects you touch every day — and you've never noticed them.\n\nLook at a pen cap. See the tiny hole on top? That hole isn't a mistake. It's there so that if someone accidentally swallows the cap, air can still pass through it. That little hole has saved lives.\n\nNext time you're in a car, look at the fuel gauge. There's a tiny arrow next to the petrol pump symbol. It points to the side your fuel cap is on. You've probably driven for years without seeing it.\n\nFeel the F and J keys on your keyboard. There are little bumps on them. They're there so your fingers can find the home position without looking. A secret guide built for your fingertips.\n\nAnd those little rivets on your jeans pockets? They were added over a hundred years ago to stop the pockets from ripping — and they're still there today, doing the same silent job.\n\nThe world is full of tiny design secrets, hiding in plain sight, quietly protecting you.\n\nWhich one did you never notice? Comment it. Follow for more hidden secrets.",
+    "chars": 1019,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-08",
+    "num": 8,
+    "title": "Mistakes in Things You Use Daily",
+    "body": "You've been using these things wrong your entire life. Number three will annoy you.\n\nThat little paper cup of ketchup at fast-food places? You're meant to fan it open into a wide bowl. It unfolds to hold way more — you've been cramming fries into a tiny tube for no reason.\n\nThe hole in the middle of a spaghetti spoon isn't for draining. It measures a single portion of dry spaghetti. Push the noodles through it — that's exactly one serving.\n\nAnd the floppy disk 'save' icon you tap every day? It's a real object almost nobody under 20 has ever seen. You're saving files with a picture of forgotten technology — a museum piece on your screen.\n\nAluminum foil has a shiny side and a dull side — but it works exactly the same either way. People have argued about this for decades. The truth: it makes zero difference.\n\nTiny mistakes, repeated millions of times, every single day, by everyone — including you.\n\nWhich one have you been doing wrong? Comment it. Follow to stop making everyday mistakes.",
+    "chars": 992,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-09",
+    "num": 9,
+    "title": "The Truth Behind Common Myths",
+    "body": "Almost everything you were told as a kid was a lie. Let's destroy these myths one by one.\n\nMyth: you only use 10% of your brain. Completely false. Brain scans show you use virtually all of it — just not all at once. Even resting, your whole brain is lit up and working.\n\nMyth: a goldfish has a 3-second memory. Wrong. Goldfish can remember things for months. They can even be trained to recognize their owners and push tiny levers for food.\n\nMyth: bulls hate the color red. Bulls are actually colorblind to red. What makes them charge isn't the color — it's the movement of the cape being waved. Red could be green and they'd still charge.\n\nMyth: lightning never strikes the same place twice. It does — constantly. Tall towers get struck dozens of times a year. The Empire State Building gets hit again and again.\n\nEverything you 'knew' just collapsed. How many of these did you believe?\n\nComment the myth that fooled you the longest. Follow — I'm coming for more lies you believe.",
+    "chars": 975,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-10",
+    "num": 10,
+    "title": "Learn Something New in 60 Seconds",
+    "body": "In the next 60 seconds, I'm going to hand you facts that make you sound smarter instantly.\n\nThat little dot above the letters i and j? It has a name. It's called a 'tittle.' You've written it your whole life and never knew it had a name.\n\nA group of flamingos isn't called a flock. It's called a 'flamboyance.' Which honestly fits them perfectly.\n\nThe word 'OK' — used by billions of people — started as a joke spelling of 'all correct.' A silly newspaper gag became the most spoken word on the planet.\n\nThe little plastic tips on your shoelaces have a name too: 'aglets.' Their only job is to stop your laces from fraying — and they've been quietly doing it for centuries.\n\nAnd the space between your eyebrows? That's called the 'glabella.' You touch it when you're stressed without even realizing.\n\nFive new things in under a minute. You're already smarter than you were 60 seconds ago.\n\nComment your favorite new word. Follow — tomorrow you learn five more in 60 seconds.",
+    "chars": 967,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-11",
+    "num": 11,
+    "title": "Your Brain Lies to You — Here’s How",
+    "body": "Stop. Before you scroll… your brain is lying to you right now. And I can prove it in 10 seconds.\n\nLook straight ahead. Feels like you're seeing everything — sharp, clear, edge to edge. You're not. Only a tiny dot in the center is actually in focus. Everything else is blurry. Your brain fills in the rest and sells it to you as reality.\n\nWant proof? Close your left eye. Stare at something to your right, and slowly move your thumb across your vision. At one spot — your thumb vanishes. Gone. That's your blind spot. A literal hole in your eye where the nerve connects.\n\nYou should see that black hole every second of your life. You never do. Because your brain quietly erases it and paints over the gap with whatever's nearby. It's editing your reality in real time. And you had no idea.\n\nNow the part that breaks people. The 'present moment' you're living in? It already happened. Light and sound hit your brain at different speeds, so your brain delays everything to line it up. You're not living in the now.\n\nYou're living in the past. Always. By a fraction of a second.\n\nSo the world you see isn't real. It's a story — written by your brain, edited in the dark, and handed to you just late enough that you'll never catch the lie. And the scariest part? You'll never know what it left out.\n\nComment 👁️ if your thumb actually disappeared. Follow for the truths your brain is hiding from you.",
+    "chars": 1388,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-12",
+    "num": 12,
+    "title": "Animals That Should Not Exist But Do",
+    "body": "Nature created some monsters that break every rule. The last one is basically immortal.\n\nMeet the mantis shrimp. It punches so fast it boils the water around its claw. The strike is faster than a bullet, hot enough to create a flash of light underwater. And it sees colors we can't even imagine.\n\nThe tardigrade. A microscopic creature you can boil, freeze, crush, and even launch into the vacuum of space — and it survives. We've sent them into orbit. They came back alive.\n\nThe platypus. It lays eggs like a bird, has a bill like a duck, hunts using electricity like a shark, and the males are venomous. It's like nature glued spare parts together and it somehow worked.\n\nAnd the immortal jellyfish. When it gets old or injured, it doesn't die. It reverses its own aging, turns back into a baby, and starts over. Forever. A creature that may never truly die.\n\nThese aren't from a movie. They're alive right now, somewhere on this planet.\n\nWhich one shouldn't exist? Comment it. Follow for more impossible animals.",
+    "chars": 1009,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-13",
+    "num": 13,
+    "title": "The Science of Why You Hate Mondays",
+    "body": "You don't actually hate Mondays. Your body does — and there's a real reason why.\n\nAll weekend, you stay up later and sleep in. Your internal body clock quietly shifts forward by an hour or two. Then Monday morning hits, and your alarm drags you back. Scientists call it 'social jet lag.' You've basically flown to another time zone without leaving your bed.\n\nThere's more. On Sunday night, your brain starts releasing stress hormones in anticipation of the week. You feel the dread before Monday even arrives. The fear isn't about Monday — it's your body bracing for it.\n\nAnd because you slept differently, your energy hormone is out of rhythm. Your body is trying to wake up on the wrong schedule, so you feel foggy, slow, and miserable — even after coffee.\n\nHere's the fix: keep your sleep and wake times almost the same on weekends. Boring? Maybe. But it erases the jet lag — and Monday stops feeling like a punishment.\n\nMondays aren't evil. Your body clock is just confused.\n\nComment if Mondays destroy you. Follow for the science behind your everyday struggles.",
+    "chars": 1060,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-14",
+    "num": 14,
+    "title": "Ancient Inventions We Still Use Today",
+    "body": "Some inventions are thousands of years old — and we still can't beat them. One is better than anything we make today.\n\nRoman concrete. Their harbors have survived 2,000 years of crashing seawater, while modern concrete crumbles in decades. We recently discovered their secret: their concrete actually heals its own cracks over time. We're only now learning to copy it.\n\nLocks and keys. The basic pin design we use to secure our homes today was invented in ancient Egypt over 4,000 years ago. Every time you lock your door, you're using ancient technology.\n\nAnd then there's the Antikythera mechanism — a 2,000-year-old device pulled from a shipwreck. It's a hand-cranked machine of bronze gears that predicted the positions of the stars and planets. An ancient computer, built before computers were supposed to exist.\n\nIndoor plumbing, paved roads, central heating — the Romans had them, lost to time, then reinvented centuries later.\n\nWe like to think we're the smartest humans ever. The ancients might disagree.\n\nWhich ancient invention amazed you? Comment it. Follow for more lost genius.",
+    "chars": 1085,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-15",
+    "num": 15,
+    "title": "What Happens to Your Body Without Sleep?",
+    "body": "Stay awake long enough and your body starts to break down in ways that are genuinely frightening. Hour by hour, here's what happens.\n\nAfter 24 hours awake, your brain works as if you're legally drunk. Your reactions slow, your judgment slips, and your focus crumbles — without a single sip of alcohol.\n\nAfter 48 hours, your body starts forcing 'microsleeps.' For a few seconds at a time, your brain shuts off completely while your eyes stay open. You won't even notice it happening.\n\nPush past 72 hours and the mind starts to crack. People begin seeing things that aren't there. Your brain, desperate for rest, starts blending dreams into waking life.\n\nBehind the scenes, it's worse. Your immune system weakens. Your stress hormones spike. Your body simply cannot run forever without rest.\n\nThe longest anyone intentionally stayed awake was about 11 days — and the effects on their mind were disturbing.\n\nSleep isn't lazy. It's repair time your brain cannot skip.\n\nComment your worst all-nighter. Follow for more on what your body secretly does.",
+    "chars": 1038,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-16",
+    "num": 16,
+    "title": "Mind-Blowing Space Facts in 60 Seconds",
+    "body": "Space is so strange it makes fiction look boring. Sixty seconds. Let's go.\n\nOn Venus, a single day is longer than its entire year. The planet spins so slowly that it orbits the Sun before it finishes one rotation. Time itself works differently there.\n\nThe footprints left by astronauts on the Moon will still be there millions of years from now. There's no wind, no rain, no weather to erase them. They're frozen in time.\n\nSpace is completely silent. There's no air to carry sound. You could scream right next to someone and they'd hear nothing at all.\n\nOn some planets, scientists believe it rains diamonds. Crushing pressure deep in their skies squeezes carbon into gems that fall like rain.\n\nAnd the closest star beyond our Sun is so far away that its light takes over four years to reach us. Look up — you're seeing the past.\n\nThe universe doesn't care about our rules. It writes its own.\n\nComment a 🚀 if space terrifies and amazes you. Follow for more cosmos in 60 seconds.",
+    "chars": 972,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-17",
+    "num": 17,
+    "title": "Why Left-Handed People Are Different",
+    "body": "Only one in ten people is left-handed — and science says their brains really are wired differently. Here's how.\n\nFor most of history, being left-handed was treated as something to fix. Kids had their left hands tied behind their backs. The word 'sinister' even comes from the Latin word for 'left.' The world was quietly built against them.\n\nLook at any pair of scissors, a can opener, or a school desk — almost all designed for right hands. Lefties spend their whole lives adapting to a world that ignores them.\n\nBut here's the twist. That constant adapting may give them an edge. Studies link left-handedness with strong creativity, quicker thinking in fast sports like boxing and tennis, and unique problem-solving.\n\nIn a fight or a game, lefties have a hidden advantage: everyone trains against right-handers, so a leftie feels unfamiliar and unpredictable.\n\nBeing different was never a flaw. It was a secret strength all along.\n\nAre you a leftie? Comment ✋. Follow for more on what makes you unique.",
+    "chars": 998,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-18",
+    "num": 18,
+    "title": "Foods That Were Invented by Accident",
+    "body": "Some of your favorite foods exist because someone made a mistake. The first one was invented by an 11-year-old.\n\nThe popsicle. Over a hundred years ago, a young boy left a cup of soda with a stick in it outside on a freezing night. By morning, it had frozen solid. He pulled out the world's first ice pop — by accident.\n\nPotato chips. The story goes a frustrated chef had a customer who kept complaining his fries were too thick. Out of spite, he sliced the potatoes paper-thin and fried them crisp. The customer loved them. A revenge dish became a global snack.\n\nThe chocolate chip cookie. A baker ran out of regular chocolate, so she chopped up a chocolate bar, expecting it to melt and blend in. It didn't. The chunks held their shape — and the cookie was born.\n\nEven cornflakes were a mistake — left-out dough that dried into flakes.\n\nSome of the best things in life come from a happy accident.\n\nWhich accidental food is your favorite? Comment it. Follow for more delicious mistakes.",
+    "chars": 981,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-19",
+    "num": 19,
+    "title": "The Hidden Meaning of Popular Logos",
+    "body": "You've seen these logos a thousand times — but you've never really seen them. Look closer.\n\nThe Amazon logo. That yellow arrow isn't just a smile. It points from the letter A to the letter Z — telling you they sell everything, from A to Z. A secret message hiding in plain sight.\n\nThe FedEx logo. Look at the space between the E and the X. There's a perfect white arrow hidden there, pointing forward — speed and delivery, baked right into the design. Once you see it, you can't unsee it.\n\nThe Toblerone chocolate logo. That mountain on the front? Hidden inside it is the shape of a bear. It's a tribute to the city where the chocolate was born — a city known for its bears.\n\nAnd Baskin-Robbins — the pink parts of the B and R secretly form the number 31, for their 31 flavors.\n\nDesigners hid these messages on purpose, betting you'd never notice. And for years… you didn't.\n\nWhich hidden logo blew your mind? Comment it. Follow for more secrets in plain sight.",
+    "chars": 955,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-20",
+    "num": 20,
+    "title": "Countries That No Longer Exist",
+    "body": "These countries had flags, armies, and millions of citizens. Today, they're gone — erased from the map.\n\nThe Soviet Union. For most of the last century, it was one of the two most powerful nations on Earth. Then, almost overnight in 1991, it shattered into 15 separate countries. A superpower, dissolved.\n\nYugoslavia. A single nation that broke apart into seven different countries. People who were born in one country died in another — without ever moving house.\n\nCzechoslovakia. It split so peacefully into two nations that history calls it the 'Velvet Divorce.' One country, calmly becoming two, almost overnight.\n\nAnd East Germany. For decades, a wall split one city in two, with families trapped on opposite sides. When that wall finally fell, an entire country vanished as Germany became one again.\n\nBorders feel permanent. They're not. The map you grew up with is already changing.\n\nDid you know any of these existed? Comment one. Follow for more vanished history.",
+    "chars": 965,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  },
+  {
+    "id": "seed-21",
+    "num": 21,
+    "title": "What Doctors Won't Tell You About Sleep",
+    "body": "There are things about sleep most people never hear — and they change how you'll think about every night. Listen.\n\nWhile you sleep, your brain physically cleans itself. A hidden system flushes out waste that builds up during the day. Skip sleep, and that 'trash' stays behind — which is why a bad night leaves you foggy and slow.\n\nHere's one almost nobody knows: you cannot fully 'catch up' on lost sleep. Sleeping 12 hours on Sunday doesn't erase a week of bad nights. The damage is already done.\n\nAnd your dreams aren't random. During deep sleep, your brain replays the day and locks important memories into place. You literally study while you sleep — which is why pulling all-nighters before exams backfires.\n\nFor most of history, humans slept in two shifts, waking in the middle of the night on purpose. So if you wake at 3am, you're not broken. You may just be ancient.\n\nSleep isn't wasted time. It's the most important work your body does.\n\nComment 😴 if you need better sleep. Follow for more your body wishes you knew.",
+    "chars": 1021,
+    "stage": "scripts",
+    "notes": "",
+    "updatedAt": 0,
+    "updatedBy": "System"
+  }
+];

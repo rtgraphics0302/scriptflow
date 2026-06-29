@@ -1,0 +1,12 @@
+# Never commit your live data or its password to the repo — it lives in Firebase.
+boards.json
+data.json
+media/
+*.tmp
+
+# Local-only tools / junk
+cloudflared.exe
+__pycache__/
+*.pyc
+*.output
+.DS_Store

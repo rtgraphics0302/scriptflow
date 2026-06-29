@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>ScriptFlow — Editing Hub Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="app.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- ===================== TOP BAR ===================== -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">⚡</span>
+      <div class="brand-text">
+        <span class="brand-name">ScriptFlow</span>
+        <span class="brand-sub">Editing Hub Agency</span>
+      </div>
+    </div>
+
+    <!-- Board switcher -->
+    <div class="board-switch" id="boardSwitch">
+      <button class="board-btn" id="boardBtn">
+        <svg viewBox="0 0 24 24" class="ic"><path d="M4 5h16v4H4zM4 13h10v6H4z"/></svg>
+        <span id="boardName">Editing Hub</span>
+        <svg viewBox="0 0 24 24" class="ic sm"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div class="menu hidden" id="boardMenu"></div>
+    </div>
+
+    <div class="topbar-center">
+      <div class="search">
+        <svg viewBox="0 0 24 24" class="ic"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z"/></svg>
+        <input id="searchInput" type="search" placeholder="Search scripts…" autocomplete="off" />
+      </div>
+    </div>
+
+    <div class="topbar-right">
+      <span class="status-pill" id="statusPill" title="Sync status">
+        <span class="dot"></span><span class="status-text">Local</span>
+      </span>
+      <div class="presence" id="presence"></div>
+
+      <button class="icon-btn" id="shareBtn" title="Invite an editor by email">
+        <svg viewBox="0 0 24 24" class="ic"><path d="M4 4h16v16H4zM4 6l8 6 8-6"/></svg>
+      </button>
+
+      <div class="bell-wrap">
+        <button class="icon-btn" id="bellBtn" title="Activity & notifications">
+          <svg viewBox="0 0 24 24" class="ic"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+          <span class="badge hidden" id="bellBadge">0</span>
+        </button>
+        <div class="menu wide hidden" id="activityPanel"></div>
+      </div>
+
+      <div class="seg" id="viewToggle">
+        <button data-view="board" class="active" title="Board view"><svg viewBox="0 0 24 24" class="ic"><path d="M4 4h6v16H4zM14 4h6v9h-6z"/></svg></button>
+        <button data-view="list" title="List view"><svg viewBox="0 0 24 24" class="ic"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      </div>
+
+      <button class="icon-btn" id="themeBtn" title="Toggle light / dark"><svg viewBox="0 0 24 24" class="ic"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg></button>
+      <button class="icon-btn" id="settingsBtn" title="Settings"><svg viewBox="0 0 24 24" class="ic"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M19 12a7 7 0 0 0-.1-1l2-1.5-2-3.5-2.4 1a7 7 0 0 0-1.7-1L14.5 3h-5l-.3 2.5a7 7 0 0 0-1.7 1l-2.4-1-2 3.5L3 11a7 7 0 0 0 0 2l-2 1.5 2 3.5 2.4-1a7 7 0 0 0 1.7 1L9.5 21h5l.3-2.5a7 7 0 0 0 1.7-1l2.4 1 2-3.5-2-1.5a7 7 0 0 0 .1-1Z"/></svg></button>
+      <button class="icon-btn" id="identityBtn" title="My profile"><span class="avatar sm" id="meAvatar">?</span></button>
+      <button class="btn primary" id="newBtn">
+        <svg viewBox="0 0 24 24" class="ic"><path d="M12 5v14M5 12h14"/></svg><span>New Script</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="stats" id="stats"></section>
+  <main class="board" id="board"></main>
+  <main class="listview hidden" id="listview"></main>
+
+  <!-- ===================== SCRIPT DRAWER ===================== -->
+  <div class="overlay hidden" id="drawerOverlay"></div>
+  <aside class="drawer hidden" id="drawer" aria-hidden="true"></aside>
+
+  <!-- ===================== IDENTITY MODAL ===================== -->
+  <div class="modal-root hidden" id="identityModal">
+    <div class="modal-backdrop"></div>
+    <div class="modal card">
+      <h2 class="modal-title">Welcome to Editing Hub Agency</h2>
+      <p class="modal-sub">Tell us who you are. Your name and photo show up live next to anything you change.</p>
+      <div class="id-row">
+        <div class="photo-pick" id="photoPick" title="Add a profile picture">
+          <img id="photoPreview" alt="" />
+          <span id="photoInitials">?</span>
+          <div class="photo-cam"><svg viewBox="0 0 24 24" class="ic"><path d="M4 7h3l2-2h6l2 2h3v12H4zM12 17a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"/></svg></div>
+          <input type="file" id="photoInput" accept="image/*" hidden />
+        </div>
+        <label class="field grow"><span>Your name</span><input id="nameInput" type="text" placeholder="e.g. Rizwan" maxlength="40" /></label>
+      </div>
+      <div class="field">
+        <span>Your role</span>
+        <div class="role-pick" id="rolePick">
+          <button data-role="owner" class="role-card active"><strong>Creator / Owner</strong><small>Run the agency, manage access</small></button>
+          <button data-role="editor" class="role-card"><strong>Editor</strong><small>Edit & deliver assigned scripts</small></button>
+        </div>
+      </div>
+      <button class="btn primary block" id="saveIdentity">Enter Studio</button>
+    </div>
+  </div>
+
+  <!-- ===================== MEMBERS / ACCESS MODAL ===================== -->
+  <div class="modal-root hidden" id="membersModal">
+    <div class="modal-backdrop" data-close="membersModal"></div>
+    <div class="modal card lg">
+      <div class="modal-head">
+        <h2 class="modal-title">Members & Access</h2>
+        <button class="icon-btn" data-close="membersModal"><svg viewBox="0 0 24 24" class="ic"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
+      <p class="modal-sub" id="membersHint"></p>
+      <div class="members-list" id="membersList"></div>
+      <div class="field" style="margin-top:14px">
+        <span>When a new editor opens this board they can…</span>
+        <div class="seg-pick" id="defaultAccess">
+          <button data-acc="edit" class="active">Edit right away</button>
+          <button data-acc="view">Only view (until you allow)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== SETTINGS MODAL ===================== -->
+  <div class="modal-root hidden" id="settingsModal">
+    <div class="modal-backdrop" data-close="settingsModal"></div>
+    <div class="modal card">
+      <div class="modal-head"><h2 class="modal-title">Settings</h2><button class="icon-btn" data-close="settingsModal"><svg viewBox="0 0 24 24" class="ic"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+      <label class="toggle-row"><span><strong>Voice welcome</strong><small>Say “Welcome to Editing Hub Agency” when the site opens</small></span><input type="checkbox" id="welcomeToggle" /></label>
+      <label class="toggle-row"><span><strong>Desktop notifications</strong><small>Get notified when an editor does something</small></span><input type="checkbox" id="notifyToggle" /></label>
+      <label class="toggle-row"><span><strong>Notification sound</strong><small>Play a soft chime on new activity</small></span><input type="checkbox" id="soundToggle" /></label>
+      <div class="owner-only hidden" id="ownerSettings">
+        <hr class="sep" />
+        <label class="field"><span>Your name (owner)</span><input id="ownerNameInput" type="text" maxlength="40" placeholder="e.g. Rizwan" /></label>
+        <label class="field"><span>Board (channel) name</span><input id="boardNameInput" type="text" maxlength="60" /></label>
+
+        <div class="brand-row">
+          <div class="brand-up">
+            <span class="up-label">Logo</span>
+            <img id="logoPreview" class="up-preview hidden" alt="" />
+            <button class="btn sm ghost" id="logoBtn">Upload logo</button>
+            <input type="file" id="logoInput" accept="image/*" hidden />
+          </div>
+          <div class="brand-up">
+            <span class="up-label">Board image</span>
+            <img id="imagePreview" class="up-preview wide hidden" alt="" />
+            <button class="btn sm ghost" id="imageBtn">Upload image</button>
+            <input type="file" id="imageInput" accept="image/*" hidden />
+          </div>
+        </div>
+
+        <label class="field"><span>Owner PIN <small>(lets you manage access from any device)</small></span><input id="ownerPinInput" type="text" inputmode="numeric" maxlength="8" placeholder="e.g. 1234" /></label>
+        <label class="field"><span>Board password <small>(visitors must enter it to open the board)</small></span><input id="boardPwInput" type="text" maxlength="40" placeholder="Leave blank for no password" /></label>
+        <button class="btn primary" id="saveOwnerSettings">Save board settings</button>
+      </div>
+      <button class="btn ghost block" id="unlockOwnerBtn" style="margin-top:10px">I'm the owner — unlock manage access</button>
+    </div>
+  </div>
+
+  <!-- ===================== SHARE MODAL ===================== -->
+  <div class="modal-root hidden" id="shareModal">
+    <div class="modal-backdrop" data-close="shareModal"></div>
+    <div class="modal card">
+      <div class="modal-head"><h2 class="modal-title">Invite an editor</h2><button class="icon-btn" data-close="shareModal"><svg viewBox="0 0 24 24" class="ic"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+      <p class="modal-sub">Share this board's link. Anyone who opens it joins live.</p>
+      <div class="field hidden" id="inviteRole"><span>They join as…</span>
+        <div class="seg-pick">
+          <button data-acc="edit" class="active">Editor (can edit)</button>
+          <button data-acc="view">Viewer (view only)</button>
+        </div>
+        <small class="hint-small">Owner stays your call — change anyone's role anytime in Members &amp; Access. To make someone a co-owner, share your Owner PIN.</small>
+      </div>
+      <label class="field"><span>Editor's email</span><input id="inviteEmail" type="email" placeholder="editor@email.com" /></label>
+      <div class="field"><span>Board link</span><div class="copy-row"><input id="shareLink" type="text" readonly /><button class="btn sm" id="copyLink">Copy</button></div></div>
+      <p class="hint-small hidden" id="sharePwNote">🔒 This board is password-protected — send the password to your editor separately.</p>
+      <button class="btn primary block" id="sendInvite"><svg viewBox="0 0 24 24" class="ic"><path d="M4 4h16v16H4zM4 6l8 6 8-6"/></svg> Send invite by email</button>
+      <p class="hint-small">This opens your email app with the invite ready to send.</p>
+    </div>
+  </div>
+
+  <!-- ===================== LOGIN GATE ===================== -->
+  <div class="modal-root hidden" id="loginModal">
+    <div class="modal-backdrop"></div>
+    <div class="modal card">
+      <div class="login-mark">🔒</div>
+      <h2 class="modal-title" style="text-align:center">Editing Hub Agency</h2>
+      <p class="modal-sub" style="text-align:center">This board is private. Enter the password to continue.</p>
+      <label class="field"><span>Password</span><input id="loginPw" type="password" placeholder="Board password" autocomplete="current-password" /></label>
+      <p class="hint-small hidden" id="loginErr" style="color:#ef4444">Wrong password — try again.</p>
+      <button class="btn primary block" id="loginBtn">Enter</button>
+    </div>
+  </div>
+
+  <!-- ===================== TELEPROMPTER ===================== -->
+  <div class="teleprompter hidden" id="teleprompter">
+    <div class="tp-bar">
+      <button class="btn ghost" id="tpClose">✕ Close</button>
+      <div class="tp-controls">
+        <button class="btn ghost" id="tpSlower">Slower</button>
+        <button class="btn primary" id="tpPlay">▶ Play</button>
+        <button class="btn ghost" id="tpFaster">Faster</button>
+        <label class="tp-font">A<input type="range" id="tpFont" min="24" max="72" value="40" />A</label>
+      </div>
+    </div>
+    <div class="tp-scroll" id="tpScroll"><div class="tp-inner" id="tpInner"></div></div>
+  </div>
+
+  <div class="toasts" id="toasts"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
