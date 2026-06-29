@@ -1,0 +1,2 @@
+# ScriptFlow runs on the Python standard library only — no packages needed.
+# (This file exists so the host's build step succeeds.)
